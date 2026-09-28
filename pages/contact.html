@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nexus Digital</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">NEXUS</div>
+            <ul class="nav-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero contact-hero">
+        <img src="https://images.unsplash.com/photo-1455849318169-8badad00552c?w=1400&q=80" alt="Contact" class="hero-bg-image">
+        <div class="hero-background">
+            <div class="gradient-blob blob-1"></div>
+            <div class="gradient-blob blob-2"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Let's Build Something Great</h1>
+            <p class="hero-subtitle">We're ready when you are. Let's discuss your project.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- CONTACT FORM -->
+                <div class="contact-form-wrapper">
+                    <h2>Get In Touch</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" required>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="projectType">What do you need?</label>
+                            <select id="projectType" name="projectType" required>
+                                <option value="">-- Select --</option>
+                                <option value="web-design">Web Design & Development</option>
+                                <option value="branding">Brand Strategy</option>
+                                <option value="performance">Performance Optimization</option>
+                                <option value="content">Content Strategy</option>
+                                <option value="other">Something Else</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">What's your budget?</label>
+                            <select id="budget" name="budget" required>
+                                <option value="">-- Select --</option>
+                                <option value="25k-50k">$25K - $50K</option>
+                                <option value="50k-100k">$50K - $100K</option>
+                                <option value="100k+">$100K+</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Tell us about your project</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <div class="form-status"></div>
+                    </form>
+                </div>
+
+                <!-- CONTACT INFO -->
+                <div class="contact-info">
+                    <h2>Why Choose Us</h2>
+
+                    <div class="info-card">
+                        <h3>📧 Email</h3>
+                        <p>hello@nexusdigital.com</p>
+                        <small>We reply within 24 hours</small>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📞 Phone</h3>
+                        <p>+1 (555) 123-4567</p>
+                        <small>Mon-Fri, 9am-6pm EST</small>
+                    </div>
+
+                    <div class="info-card">
+                        <h3>📍 Office</h3>
+                        <p>San Francisco, CA</p>
+                        <small>Global team, local expertise</small>
+                    </div>
+
+                    <div class="trust-badges">
+                        <h3>We're Trusted By</h3>
+                        <ul>
+                            <li>✓ 500+ Brands</li>
+                            <li>✓ 95% Client Retention</li>
+                            <li>✓ $2.4M+ Revenue Generated</li>
+                            <li>✓ 20+ Years Experience</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-contact">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>How long does the discovery process take?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Our discovery process typically takes 1-2 weeks. We dive deep into your business, market, and goals to build a solid foundation for the project.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>What's the typical project timeline?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Most projects take 8-12 weeks from discovery to launch. Smaller projects might be 4-6 weeks. Complex platforms can take 4-6 months. We build in sprints.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Do you work with startups or only established companies?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>We love working with startups and early-stage companies. Many of our clients have gone on to raise funding or achieve significant growth.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>What if we're not ready to start immediately?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>No problem. We can schedule a discovery call now and plan for a future start date. We'll keep you on our list and prioritize when you're ready.</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        <span>Do you provide post-launch support?</span>
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Absolutely. We offer maintenance plans, content updates, and continuous optimization. Most clients stay with us for years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-final">
+        <div class="container">
+            <h2>Ready to transform your digital presence?</h2>
+            <p>The first step is a simple conversation. No pressure, no commitment.</p>
+            <a href="contact.html" class="btn btn-primary">Schedule a Discovery Call</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NEXUS DIGITAL</h4>
+                    <p>Strategic web design for ambitious brands.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <p>hello@nexusdigital.com</p>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Nexus Digital. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
